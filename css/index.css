@@ -367,12 +367,12 @@ body {
   text-decoration: none;
 }
 
-.buy-tickets:hover {
+.submit:hover {
   background: none;
   color: #fff;
 }
 
-.buy-tickets:focus {
+.submit:focus {
   color: #fff;
 }
 

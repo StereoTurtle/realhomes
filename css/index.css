@@ -172,7 +172,7 @@ body {
 
 #boton {
   position: relative;
-  top: 0rem;
+  right: 6.5rem;
   border-radius: 0px;
   width: 40%;
   height: 135%;
@@ -237,7 +237,7 @@ body {
   position: relative;
   right: 5rem;
   text-align: right;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .status {
@@ -249,9 +249,9 @@ body {
 
 .slide {
   position: relative;
-  left: 2rem;
-  width: 120%;
-  height: 120%;
+  right: 0.4rem;
+  width: 125%;
+  height: 125%;
 }
 
 .price {
@@ -630,4 +630,31 @@ body {
   .status, .price {
     display: none;
   }
+}
+
+.prop {
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 3px #ccc;
+  width: 50%;
+  margin-left: 10rem;
+}
+
+.img {
+  position: relative;
+  bottom: 3.5rem;
+  padding-right: 1rem;
+}
+
+.propiedad_id{
+  font-family: 'Roboto', sans-serif;
+  width: 130%;
+  margin-left: 2rem;
+}
+
+.propiedad_id2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  width: 53%;
+  margin-left: 15rem;
 }

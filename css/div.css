@@ -5,3 +5,8 @@
         width: 50%;
         margin-left: 10rem;
     }
+
+    .img{
+        position: relative;
+        bottom: 4rem;
+      }

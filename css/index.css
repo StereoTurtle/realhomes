@@ -1,5 +1,4 @@
 body {
-  overflow-x: hidden;
 }
 
 .banner {
@@ -155,8 +154,8 @@ body {
 
 .bar {
   position: relative;
-  top: -2.5rem;
-  left: 2.3rem;
+  bottom: 2rem;
+  right: -0.7rem;
   font-family: "Raleway", sans-serif;
 }
 
@@ -172,9 +171,8 @@ body {
 
 #boton {
   position: relative;
-  right: 6.5rem;
   border-radius: 0px;
-  width: 40%;
+  width: 80%;
   height: 135%;
   font-size: 19px;
 }
@@ -224,13 +222,13 @@ body {
 
 .titulo1 {
   position: relative;
-  right: -1em;
+  
   font-size: 25px;
 }
 
 .adress {
   position: relative;
-  right: -1.9em;
+  
 }
 
 .propiedad_precio {
@@ -249,8 +247,6 @@ body {
 
 .slide {
   position: relative;
-  right: 0.4rem;
-  width: 125%;
   height: 125%;
 }
 
@@ -648,26 +644,63 @@ body {
 
 .propiedad_id{
   font-family: 'Roboto', sans-serif;
-  width: 130%;
-  margin-left: 2rem;
+  
 }
 
 .propiedad_id2{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  width: 53%;
-  margin-left: 15rem;
-<<<<<<< HEAD
+  
   margin-top: 1.5rem;
   padding: 1rem;
 
 }
-=======
-}
+
 
 .inline-div {
     display: inline;
     float: left;
     margin-right: 3em;
 }
->>>>>>> 853c4ba204d8eb79c3bb28c30e5504d92ae827cb
+
+.card_vendedor{
+  text-decoration: none;
+  font-size: 15px;
+  color: gray;
+}
+
+.card_info{
+  font-size: 15px;
+}
+
+.card_agente li{
+  text-align: center;
+}
+
+.card-text{
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+}
+
+.card-title{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: #198754;
+  font-weight: bold;
+}
+
+.inline-div{
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+}
+
+.card-header{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: #198754;
+}
+
+.busqueda{
+  position: relative;
+  right: 2rem;
+}

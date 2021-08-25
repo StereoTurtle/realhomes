@@ -224,13 +224,13 @@ body {
 
 .titulo1 {
   position: relative;
-  left: 6.8rem;
+  right: -1em;
   font-size: 25px;
 }
 
 .adress {
   position: relative;
-  left: 7rem;
+  right: -1.9em;
 }
 
 .propiedad_precio {
@@ -657,4 +657,7 @@ body {
   font-weight: bold;
   width: 53%;
   margin-left: 15rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+
 }

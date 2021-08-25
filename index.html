@@ -268,3 +268,250 @@
 </body>
 
 </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css" class="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Galeria</title>
+</head>
+
+<body>
+    <header id="header" class="d-flex align-items-center" style="background-image:url(/img/banner1.png)">
+        <div class="container-fluid container-xxl d-flex align-items-center">
+            <div id="logo" class="me-auto">
+                <a href="index.html" class="scrollto"><img src="/img/logo.png" alt="" title=""></a>
+            </div>
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#home">Inicio</a></li>
+                    <li><a class="nav-link scrollto" href="#real">Galeria</a></li>
+                    <li><a class="nav-link scrollto" href="#property">Propiedades</a></li>
+                    <li><a class="nav-link scrollto" href="#Contact">Contacto</a></li>
+                    <li><a class="nav-link scrollto" href="#tel"><img src="/img/tell-icon.svg" style="position: relative; bottom: 0.1rem; right: 0.1rem;">1-829-533-2795</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <a class="submit scrollto" href="#submit">Enviar</a>
+
+        </div>
+    </header>
+    <div class="col">
+        <section class="banner" style="background-image: url('/img/banner.jpg');">
+            <div class="name_villa">
+                <h2 style="font-size: 40px;">Villa Hipotetica</h2>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <div class="row bar">
+            <div class="col-12 col-md-3 px-0">
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Ubicación</option>
+                    <option value="1">Variable</option>
+                    <option value="2">Variable</option>
+                    <option value="3">Variable</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-2 px-0">
+
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Estado</option>
+                    <option value="1">Variable</option>
+                    <option value="2">Variable</option>
+                    <option value="3">Variable</option>
+                </select>
+            </div>
+            <div class="col-12 col-md-3 px-0">
+
+                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Propiedad</option>
+                    <option value="1">Variable</option>
+                    <option value="2">Variable</option>
+                    <option value="3">Variable</option>
+                </select>
+            </div>
+            <div class="col-12 col-md px-0">
+
+                <button type="button" class="btn btn-success w-100" id="boton">
+                    <span>
+                        Buscar
+                    </span>
+                </button>
+            </div>
+        </div>
+        <div class="page-breadcrumbs  page-breadcrumbs-modern">
+            <nav class="property-breadcrumbs">
+                <ul>
+                    <a href="/index.html">Inicio</a>&nbsp<i class="breadcrumbs-separator fas fa-angle-right flecha">&nbsp</i>
+                    <a href="#">Página</a>
+                </ul>
+            </nav>
+        </div>
+        <!-- Titulo de Casas -->
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h1 class="titulo1">
+                    Villa on Hollywood Boulevard </h1>
+                <!-- Direccion -->
+                <p class="adress">
+                    Hatteras Lane, Hollywood, FL 33019, USA
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="propiedad_precio">
+                    <p class="status">
+                        En Venta
+                    </p>
+
+                    <!-- /.status -->
+                    <p class="price">
+                        <span class="property-price-wrapper"><ins class="property-current-price">$740,000
+                                USD</ins></span>
+                    </p>
+                    <!-- /.price -->
+                </div>
+            </div>
+        </div>
+        <div class="col-8 px-5">
+            <div class="slide">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/img/img1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/img2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/img3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card mt-4 propiedad_id">
+                    <div class="card-header" style="font-weight: bold;">
+                        ID property:
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <span class="print">
+                            <img src="/img/printer.svg" class="rounded float-end img">
+                        </span>
+                        <span class="heart">
+                            <img src="/img/heart.svg" class="rounded float-end img">
+                        </span>
+                        <span class="compare">
+                            <img src="/img/share.svg" class="rounded float-end img">
+                        </span>
+                        <span class="share">
+                            <img src="img/compartir.svg" class="rounded float-end img">
+                        </span>
+                        <p class="card-text">
+                        <div class="rowr">
+                            <div class="inline-div">
+                                <span class="rh_meta_titles">
+                                    Habitaciones </span>
+                                <div>
+                                    <img src="/img/cuartos.svg" alt="">
+                                    <span class="figure">3</span>
+                                </div>
+                            </div>
+                            <!-- /.rh_property__meta -->
+
+                            <div class="inline-div">
+                                <span class="rh_meta_titles">
+                                    Baños </span>
+                                <div>
+                                    <img src="/img/baños.svg" alt="">
+                                    <span class="figure">4</span>
+                                </div>
+                            </div>
+                            <!-- /.rh_property__meta -->
+                            <div class="inline-div">
+                                <span class="rh_meta_titles">
+                                    Garajes </span>
+                                <div>
+                                    <img src="/img/garaje.svg" alt="">
+                                    <span class="figure">
+                                        2 </span>
+                                </div>
+                            </div>
+                            <!-- /.rh_property__meta -->
+                            <div class="inline-div">
+                                <span class="año_cons">
+                                    Año </span>
+                                <div>
+                                    <img src="img/cons.svg" alt="">
+                                    <span class="figure">
+                                        2021 </span>
+                                </div>
+                            </div>
+                            <div class="inline-div">
+                                <span class="rh_meta_titles">
+                                    Area </span>
+                                <div>
+                                    <img src="/img/area.svg" alt="">
+                                    <span class="figure">
+                                        4530 </span>
+                                    <span class="label">
+                                        Sq Ft </span>
+                                </div>
+                            </div>
+                            <!-- /.rh_property__meta -->
+                            <div class="inline-div">
+                                <span class="rh_meta_titles">
+                                    Tamaño del Lote</span>
+                                <div>
+                                    <img src="/img/lote.svg" alt="">
+                                    <span class="figure">
+                                        5000 </span>
+                                    <span class="label">
+                                        Sq Ft </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="card mt-4 propiedad_id2">
+                    <div class="card-header">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+
+                        </h5>
+                        <p class="card-text">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

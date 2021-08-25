@@ -387,7 +387,7 @@ body {
 --------------------------------------------------------------*/
 
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 
 .navbar {
@@ -515,7 +515,7 @@ body {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 
 .mobile-nav-toggle {
@@ -657,7 +657,17 @@ body {
   font-weight: bold;
   width: 53%;
   margin-left: 15rem;
+<<<<<<< HEAD
   margin-top: 1.5rem;
   padding: 1rem;
 
 }
+=======
+}
+
+.inline-div {
+    display: inline;
+    float: left;
+    margin-right: 3em;
+}
+>>>>>>> 853c4ba204d8eb79c3bb28c30e5504d92ae827cb

@@ -30,23 +30,6 @@ body {
   color: #ffffff;
 }
 
-.navbar {
-  font-family: 'Roboto', sans-serif;
-}
-
-.navbar-brand {
-  background-image: url("https://modern.b-cdn.net/wp-content/uploads/2017/06/logo.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 70px;
-  height: 48px;
-}
-
-.navbar i {
-  color: #FFF;
-}
-
 .home {
   color: #fff;
   background: #ea723d;
@@ -104,54 +87,6 @@ body {
   background-color: #f6f7fd;
 }
 
-/*--------------------------------------------------------------
-  # Header
-  --------------------------------------------------------------*/
-
-#header {
-  height: 90px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  transition: all 0.5s;
-  z-index: 997;
-}
-
-#header.header-scrolled, #header.header-inner {
-  background: rgba(6, 12, 34, 0.98);
-  height: 70px;
-}
-
-#header #logo h1 {
-  font-size: 36px;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-#header #logo h1 span {
-  color: #198754;
-}
-
-#header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
-}
-
-#header #logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
-}
-
-@media (max-width: 992px) {
-  #header #logo img {
-    max-height: 30px;
-  }
-}
-
 .bar {
   position: relative;
   bottom: 2rem;
@@ -177,58 +112,15 @@ body {
   font-size: 19px;
 }
 
-/*! CSS Used from: https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/css/all.min.css?ver=5.13.1 ; media=all */
-
-@media all {
-  .fas {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-  }
-  .fa-angle-right:before {
-    content: "\f105";
-  }
-  .fas {
-    font-family: "Font Awesome 5 Free";
-  }
-  .fas {
-    font-weight: 900;
-  }
-}
-
-/*! CSS Used fontfaces */
-
-@font-face {
-  font-family: "Font Awesome 5 Free";
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-regular-400.eot);
-  src: url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-regular-400.eot#iefix) format("embedded-opentype"), url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-regular-400.woff2) format("woff2"), url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-regular-400.woff) format("woff"), url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-regular-400.ttf) format("truetype"), url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-regular-400.svg#fontawesome) format("svg");
-}
-
-@font-face {
-  font-family: "Font Awesome 5 Free";
-  font-style: normal;
-  font-weight: 900;
-  font-display: block;
-  src: url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-solid-900.eot);
-  src: url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-solid-900.eot#iefix) format("embedded-opentype"), url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-solid-900.woff2) format("woff2"), url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-solid-900.woff) format("woff"), url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-solid-900.ttf) format("truetype"), url(https://modern.b-cdn.net/wp-content/themes/realhomes/common/font-awesome/webfonts/fa-solid-900.svg#fontawesome) format("svg");
-}
-
 .titulo1 {
   position: relative;
-  
+
   font-size: 25px;
 }
 
 .adress {
   position: relative;
-  
+
 }
 
 .propiedad_precio {
@@ -294,54 +186,6 @@ body {
 
 .section-with-bg {
   background-color: #f6f7fd;
-}
-
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-
-#header {
-  height: 90px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  transition: all 0.5s;
-  z-index: 997;
-}
-
-#header.header-scrolled, #header.header-inner {
-  background: rgba(6, 12, 34, 0.98);
-  height: 70px;
-}
-
-#header #logo h1 {
-  font-size: 36px;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
-
-#header #logo h1 span {
-  color: #198754;
-}
-
-#header #logo h1 a, #header #logo h1 a:hover {
-  color: #fff;
-}
-
-#header #logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 40px;
-}
-
-@media (max-width: 992px) {
-  #header #logo img {
-    max-height: 30px;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -644,13 +488,13 @@ body {
 
 .propiedad_id{
   font-family: 'Roboto', sans-serif;
-  
+
 }
 
 .propiedad_id2{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  
+
   margin-top: 1.5rem;
   padding: 1rem;
 

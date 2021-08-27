@@ -1,3 +1,30 @@
-.hero-carousel-inner {
-    height: 1800;
+.hero-image {
+    background: url('../img/home-tempo1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+}
+
+.hero-logo {
+    height: 20rem;
+}
+
+.hero-company-contact-info p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.hero-featured-box {
+    width: 95vw;
+    font-size: 3em;
+}
+
+.hero-featured-box .card {
+    border-radius: 0px;
+    border: none;
+}
+
+.hero-featured-box .card-header {
+    background: orange;
+    border-radius: 0px;
 }

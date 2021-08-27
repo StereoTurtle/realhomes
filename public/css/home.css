@@ -28,3 +28,7 @@
     background: orange;
     border-radius: 0px;
 }
+
+.form-control {
+    height: 40px;
+}

@@ -32,3 +32,45 @@
 .form-control {
     height: 40px;
 }
+
+.contact-div .card {
+    left: 57.5vw;
+    bottom: 10vh;
+    width: 75%;
+    border-radius: 0px;
+}
+
+.container__diagonal {
+    /* Absolute position */
+    left: 0px;
+    position: absolute;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+
+    /* Create diagonal sides */
+    transform: skewY(-5deg);
+
+    /* Background color */
+    background-color: black;
+
+    /* Displayed under the main content */
+    z-index: -1;
+}
+
+.container__diagonal > * {
+    transform:skewY(5deg);
+}
+
+.property-features {
+    display: flex;
+}
+
+.property-features-item {
+    margin-right: 1em;
+}
+
+.property-title {
+    font-weight: bolder;
+}

@@ -1,3 +1,4 @@
+/* Header */
 .banner {
   border-style: solid;
   border-width: 0;
@@ -18,149 +19,6 @@
   background-image: url("https://modern.b-cdn.net/wp-content/uploads/2017/10/banner.jpg");
   background-position: center 0%;
 }
-
-.banner .name_villa {
-  position: relative;
-  left: 7.8rem;
-  bottom: 3.3rem;
-  margin: 0;
-  color: #ffffff;
-}
-
-.home {
-  color: #fff;
-  background: #ea723d;
-  padding: 7px 22px;
-  margin: 0 0 0 15px;
-  border-radius: 0px;
-  border: 2px solid #ea723d;
-  transition: all ease-in-out 0.3s;
-  font-weight: 500;
-  line-height: 2;
-  font-size: 13px;
-  white-space: nowrap;
-  text-decoration: none;
-}
-
-.submit {
-  text-decoration: none;
-}
-
-.section-header {
-  margin-bottom: 60px;
-  position: relative;
-  padding-bottom: 20px;
-}
-
-.section-header::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 60px;
-  height: 5px;
-  background: #198754;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-
-.section-header h2 {
-  font-size: 36px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.section-header p {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 500;
-  color: #9195a2;
-}
-
-.section-with-bg {
-  background-color: #f6f7fd;
-}
-.titulo1 {
-  position: relative;
-  font-size: 25px;
-}
-
-.adress {
-  position: relative;
-}
-
-.propiedad_precio {
-  position: relative;
-  right: 5rem;
-  text-align: right;
-  font-size: 22px;
-}
-
-.status {
-  text-align: right;
-  font-size: 18px;
-  position: relative;
-  right: 1.8rem;
-}
-
-.slide {
-  position: relative;
-  height: 125%;
-}
-
-.price {
-  color: #25a146;
-  position: relative;
-  bottom: 1.4rem;
-  right: 0.2rem;
-  text-decoration: none;
-}
-
-.section-header {
-  margin-bottom: 60px;
-  position: relative;
-  padding-bottom: 20px;
-}
-
-.section-header::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 60px;
-  height: 5px;
-  background: #198754;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
-
-.section-header h2 {
-  font-size: 36px;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.section-header p {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 500;
-  color: #9195a2;
-}
-
-.section-with-bg {
-  background-color: #f6f7fd;
-}
-
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-
 #header {
   height: 90px;
   position: fixed;
@@ -239,14 +97,68 @@
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
+.banner .name_villa {
+  position: relative;
+  left: 7.8rem;
+  bottom: 3.3rem;
+  margin: 0;
+  color: #ffffff;
+}
 
-/**
-* Desktop Navigation
-*/
+.home {
+  color: #fff;
+  background: #ea723d;
+  padding: 7px 22px;
+  margin: 0 0 0 15px;
+  border-radius: 0px;
+  border: 2px solid #ea723d;
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  line-height: 2;
+  font-size: 13px;
+  white-space: nowrap;
+  text-decoration: none;
+}
 
+.submit {
+  text-decoration: none;
+}
+
+.section-header {
+  margin-bottom: 60px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.section-header::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: #198754;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-header h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #9195a2;
+}
+
+/* Navbar */
 .navbar {
   padding: 0;
 }
@@ -478,9 +390,91 @@
   display: block;
 }
 
+.section-with-bg {
+  background-color: #f6f7fd;
+}
+.titulo1 {
+  position: relative;
+  font-size: 25px;
+}
+
+.adress {
+  position: relative;
+}
+
+.propiedad_precio {
+  position: relative;
+  right: 5rem;
+  text-align: right;
+  font-size: 22px;
+}
+
+.status {
+  text-align: right;
+  font-size: 18px;
+  position: relative;
+  right: 1.8rem;
+}
+
+.slide {
+  position: relative;
+  height: 125%;
+}
+
+.price {
+  color: #25a146;
+  position: relative;
+  bottom: 1.4rem;
+  right: 0.2rem;
+  text-decoration: none;
+}
+
+.section-header {
+  margin-bottom: 60px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.section-header::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: #198754;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-header h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #9195a2;
+}
+
+.section-with-bg {
+  background-color: #f6f7fd;
+}
+/* Inicio > Pagina */
 .flecha {
   position: relative;
   left: 0.1rem;
+}
+
+.busqueda {
+  position: relative;
+  right: 2rem;
 }
 
 @media screen and (max-width: 700px) {
@@ -489,13 +483,8 @@
   }
 }
 
-.prop {
-  -moz-box-shadow: 0 0 3px #ccc;
-  -webkit-box-shadow: 0 0 3px #ccc;
-  box-shadow: 0 0 3px #ccc;
-  width: 50%;
-  margin-left: 10rem;
-}
+
+/* Div card */
 
 .img {
   position: relative;
@@ -565,7 +554,4 @@
   color: #198754;
 }
 
-.busqueda {
-  position: relative;
-  right: 2rem;
-}
+
